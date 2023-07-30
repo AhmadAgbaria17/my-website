@@ -1,5 +1,6 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import './home.css'
 
 const Home = () => {
   return (
@@ -14,23 +15,7 @@ const Home = () => {
             <span>Content Creator</span>
           </h2>
           <h3>I build awsome websites</h3>
-          <a href="#projects" className="main-btn">
-            view my work
-          </a>
-          <div className="social-icons">
-            <a href="#">
-              <i className="fa-brands fa-facebook" />
-            </a>
-            <a href="#">
-              <i className="fa-brands fa-instagram" />
-            </a>
-            <a href="#">
-              <i className="fa-brands fa-github" />
-            </a>
-            <a href="#">
-              <i className="fa-brands fa-linkedin" />
-            </a>
-          </div>
+        
         </div>
       </section>
 

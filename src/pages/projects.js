@@ -1,5 +1,6 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import './projects.css'
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
         <div className="content">
           <div className="projects-card">
             <div className="project-image">
-              <img src="images/test1.png" />
+              <img src="./images/test1.png" />
             </div>
             <div className="project-info">
               <p className="project-category">its just a test1!!</p>
@@ -25,7 +26,7 @@ const Projects = () => {
           </div>
           <div className="projects-card">
             <div className="project-image">
-              <img src="images/test2.jpg" />
+              <img src="./images/test2.jpg" />
             </div>
             <div className="project-info">
               <p className="project-category">its just a test2!!</p>

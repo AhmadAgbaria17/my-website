@@ -1,0 +1,50 @@
+header{
+  background-color: black ;
+  
+  width: 100%;    
+  position:fixed;
+  z-index:999;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo{
+  text-decoration: none;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+
+}
+
+.flex {
+display: flex;
+}
+
+.main-list {
+padding: 20px;
+font-size: 19px;
+position: relative;
+}
+
+.main-link {
+padding: 8px 15px;
+text-decoration: none;
+color: white;
+font-weight: 500;
+font-size: 1.1em;
+transition: 0.3s;
+}
+
+.main-link:hover {
+color: blue;
+box-shadow: 0 0 5px blue;
+border-radius: 5px;
+}
+
+.main-link.active {
+
+color: blue;
+}

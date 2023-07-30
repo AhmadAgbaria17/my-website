@@ -1,5 +1,6 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import './services.css'
 
 const Services = () => {
   return (

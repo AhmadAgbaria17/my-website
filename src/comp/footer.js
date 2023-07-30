@@ -1,4 +1,5 @@
 import React from "react";
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           Copyrights @ <span>Ahmad Agbaria</span>
         </p>
         <div className="social-icons">
-          <a href="https://www.facebook.com/ahmad.egbria/">
+          <a  href="https://www.facebook.com/ahmad.egbria/">
             <i className="fa-brands fa-facebook" />
           </a>
           <a href="#">
@@ -17,7 +18,7 @@ const Footer = () => {
           <a href="#">
             <i className="fa-brands fa-github" />
           </a>
-          <a href="#">
+          <a  href="#">
             <i className="fa-brands fa-linkedin" />
           </a>
         </div>
