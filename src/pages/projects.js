@@ -50,7 +50,7 @@ const Projects = () => {
                 </span>
 
                 <a
-                  href="https://github.com/AhmadAgbaria17/Articles-website"
+                  href="https://github.com/AhmadAgbaria17/Computerized-exam-management-system"
                   className="more-details"
                 >
                   The Code
