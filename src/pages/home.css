@@ -9,46 +9,26 @@
       
 }
 
-.main h2{
 
-  color: white;
+.main h2{
+  position: relative;
+  left: -170px;
+  top: -80px;
+  color: black;
+  background-color: aliceblue;
   font-size:2em;
   font-weight:500;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 10px 10px 10px ;
+  
 }
 
-
-  .main h2 span {
-      display:inline-block;
-      margin-top:10px;
-      color: blue;
-      font-size: 1.4em;
-      font-weight: 400;
-  }
-
-  .main h3 {
-      color: white;
-      font-size: 1.8em;
-      font-weight: 500;
-      letter-spacing: 1px;
-      margin-top:10px;
-      margin-bottom:30px;
-  }
-
-  .main-btn{
-      text-decoration:none;
-      color: white;
-      background-color:blue;
-      font-size: 1.1em;
-      font-weight: 400;
-      display: inline-block;
-      padding: 0.9375em 2.1875em;
-      letter-spacing: 1px;
-      border-radius:15px;
-      margin-bottom:40px;
-      transition:0.7s;
-  }
-
-  .main-btn:hover{
-      background-color:darkblue;
-      transform: scale(1.1);
-  }
+.ForContact{
+  text-decoration: none;
+  color: blue;
+  font-weight: 700;
+  
+}
+  

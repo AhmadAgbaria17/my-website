@@ -1,21 +1,32 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-import './home.css'
+import { Link } from 'react-router-dom';
+import "./home.css";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Helmet>
+        <title>Home page</title>
+      </Helmet>
 
+      <Header />
+      
       <section className="main">
         <div>
           <h2>
-            Hello,I'm Ahmad
+            Hello, and welcome to my website
             <br />
-            <span>Content Creator</span>
+            My name is Ahmad Agbaria
+            <br/>
+            I'm junior software engineering
+            <br/>
+            Feel free to <a className="ForContact" href="/contacts">contact</a> me and ask me
+            <br/>
+            anything you want!
+            
           </h2>
-          <h3>I build awsome websites</h3>
-        
         </div>
       </section>
 

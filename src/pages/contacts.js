@@ -1,9 +1,15 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-import './contacts.css';
+import "./contacts.css";
+import { Helmet } from "react-helmet-async";
+
 const Contacts = () => {
   return (
     <div>
+      <Helmet>
+        <title>Contacts page</title>
+      </Helmet>
+
       <Header />
 
       <section className="cards-contact" id="contact">
@@ -15,7 +21,7 @@ const Contacts = () => {
             </div>
             <div className="info">
               <h3>Phone</h3>
-              <p>0526489292</p>
+              <p>+972526489292</p>
             </div>
           </div>
           <div className="card">

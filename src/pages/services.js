@@ -1,51 +1,59 @@
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-import './services.css'
+import "./services.css";
+import { Helmet } from "react-helmet-async";
 
 const Services = () => {
   return (
     <div>
+      <Helmet>
+        <title>Services page</title>
+      </Helmet>
+
       <Header />
 
       <section className="cards" id="services">
         <h2 className="title">Services</h2>
         <div className="content">
+
+          
           <div className="card">
-            <div className="icon">
-              <i className="fa-solid fa-pen-to-square" />
-            </div>
             <div className="info">
-              <h3>Script Writing</h3>
+              <h3>FrontEnd</h3>
               <p>
-                Research and weite scripts for different topic that can be
-                directly recorded for video production.
+              I am proficient in HTML, CSS, and JavaScript, along with the React framework, which allows me to create aesthetically appealing designs that enhance the user experience.
               </p>
             </div>
           </div>
+
           <div className="card">
-            <div className="icon">
-              <i className="fa-solid fa-video" />
-            </div>
             <div className="info">
-              <h3>Video production</h3>
+              <h3>BackEnd</h3>
               <p>
-                Record and shoot video taking info consideration proper settings
-                , followed by production and post- production work.
+              I possess expertise in Node.js, Express, and MongoDB for back-end development, enabling me to craft efficient and robust server-side solutions that seamlessly integrate with React's front-end, delivering a complete and user-friendly experience.
               </p>
             </div>
           </div>
+
           <div className="card">
-            <div className="icon">
-              <i className="fa-solid fa-graduation-cap" />
-            </div>
             <div className="info">
-              <h3>Curriculum Develpoment</h3>
+              <h3>Full Stack</h3>
               <p>
-                Develop complete curriculums for various technical topics to
-                produce digital transformative courses.
-              </p>
+              I am a skilled full-stack developer proficient in utilizing React and Node.js to build robust and dynamic web applications. My expertise also extends to working with MongoDB, enabling me to develop efficient and scalable database solutions.                   </p>
             </div>
           </div>
+
+
+          <div className="card">
+            <div className="info">
+              <h3>Build Web Sites</h3>
+              <p>
+              I am proficient in building websites using Wix and WordPress. With a keen eye for design and a solid understanding of web development principles, I create engaging and user-friendly websites that cater to the unique needs of businesses and individuals.              </p>
+            </div>
+          </div>
+      
+      
+        
         </div>
       </section>
 
