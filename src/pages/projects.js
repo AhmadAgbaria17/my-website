@@ -21,12 +21,12 @@ const Projects = () => {
               <hr></hr>
               <strong>
                 <span className="project-category">
-                  A website that can add edit or remove Atricles. <br />I done
-                  this project using node.js and express.js.
+                A website that shows article it includes tittle summary also body.<br/>Each user can add/ remove/ edit articles, also they can share articles for each other.
+<br/>I done this project using MERN Stack. 
                 </span>
 
                 <a
-                  href="https://github.com/AhmadAgbaria17/Articles-website"
+                  href="https://github.com/AhmadAgbaria17/My_Articles"
                   className="more-details"
                 >
                   The Code
